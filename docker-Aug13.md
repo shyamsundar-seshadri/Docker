@@ -44,10 +44,11 @@ Script file desc:
 
  
 ## Docker Compose
-It is used to combine various images and bring up and down the images
-the configurations are in yml file by name docker-compose.yml
+It is used to combine various images and bring up and down the images  
+the configurations are in yml file by name docker-compose.yml  
 ### To bring docker up & down
-go to directory of compose file
-docker-compose up -d
-docker-compose down
-[Sample compose file](https://github.com/sssrox/Docker/blob/master/compose/docker-compose.yml)
+go to directory of compose file  
+docker-compose up -d  
+docker-compose down  
+### Case 1: nginx and postgres
+[Sample compose file](https://github.com/sssrox/Docker/blob/master/compose/docker-compose.yml)  
