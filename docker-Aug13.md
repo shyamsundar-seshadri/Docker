@@ -43,3 +43,11 @@ Script file desc:
   4. copy some sample files in local folder by name 'src' into root directory  
 
  
+## Docker Compose
+It is used to combine various images and bring up and down the images
+the configurations are in yml file by name docker-compose.yml
+### To bring docker up & down
+go to directory of compose file
+docker-compose up -d
+docker-compose down
+[Sample compose file](https://github.com/sssrox/Docker/blob/master/compose/docker-compose.yml)
