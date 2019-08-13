@@ -24,3 +24,11 @@ root /var/www/example.com;
 
 so navigate to that directory as working directory in docker script 
 sample docker script [DockerScript](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileAddHtmlnsideNginx)
+
+
+### Case Update configuration files and download files
+update port conf by copying from local for nginx  
+copy over files from local to ubutu  
+download a zip file from internet  
+
+[Docker Script] (https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileCopyConfFiles)
