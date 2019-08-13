@@ -8,7 +8,7 @@ build nginx into Ubuntu
 Sample docker file:  
 [Docker File](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFile-NginxInUbuntu)  
 Nme of the docker file should be "DockerFile"  
-
+for some installation provide -y switch for confirmation on installation
 write the docker file and execute in command line from the docker file directory as below,  
 docker build -t="sssrox/nginxalpha" .  
 
@@ -24,4 +24,3 @@ root /var/www/example.com;
 
 so navigate to that directory as working directory in docker script 
 sample docker script [DockerScript](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileAddHtmlnsideNginx)
-
