@@ -31,4 +31,4 @@ update port conf by copying from local for nginx
 copy over files from local to ubutu  
 download a zip file from internet  
 
-[Docker Script] (https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileCopyConfFiles)
+[Docker Script](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileCopyConfFiles)
