@@ -51,4 +51,4 @@ go to directory of compose file
 docker-compose up -d  
 docker-compose down  
 ### Case 1: nginx and postgres
-[Sample compose file](https://github.com/sssrox/Docker/blob/master/compose/docker-compose.yml)  
+[Sample compose file](https://github.com/sssrox/Docker/blob/master/compose/docker-compose%20nginx%20&%20pg)  
