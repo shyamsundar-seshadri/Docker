@@ -2,7 +2,7 @@
 
 ##To Build Image
 
-###To build a docker image from docker file  
+### Case 1: To build a docker image from docker file  
 build nginx into Ubuntu  
 
 Sample docker file:  
@@ -13,7 +13,7 @@ write the docker file and execute in command line from the docker file directory
 docker build -t="sssrox/nginxalpha" .  
 
 
-### Change content of html in nginx and build
+### Case 2: Change content of html in nginx and build
 search through the config in nginx for site  
 docker container exec -it 40683870a84c bash  
 cat /etc/nginx/sites-available/default  
@@ -26,9 +26,20 @@ so navigate to that directory as working directory in docker script
 sample docker script [DockerScript](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileAddHtmlnsideNginx)
 
 
-### Case Update configuration files and download files
+### Case 3: Update configuration files and download files
 update port conf by copying from local for nginx  
-copy over files from local to ubutu  
 download a zip file from internet  
+copy over files from local to ubutu root directory  
 
-[Docker Script](https://github.com/sssrox/Docker/blob/master/dockerImages/DockerFileCopyConfFiles)
+[Docker Script](https://github.com/sssrox/Docker/blob/master/dockerImages/Case3-DockerFileCopyConfFiles)
+Script file desc:  
+  1. download php and nginx in ubuntu  
+  2. update the conf file of Nginx to point to port 81  
+  this is done by moving conf file from local to niginx location while building image  
+  in this case it is default file in /etc/niginx/sites-enabled/default  
+  3. create a folder under var in ubuntu by name downloads and download zip file in it  
+   https://github.com/nginxinc/docker-nginx/archive/master.zip should be donwloaded  
+   For this wget is used  
+  4. copy some sample files in local folder by name 'src' into root directory  
+
+ 
