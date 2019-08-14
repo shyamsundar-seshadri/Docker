@@ -34,6 +34,10 @@ docker service ls
 docker service update --replicas 5 np4yfe76wc8x
 
 ## Docker stack
-docker stack is for swarm similar to docker compose for inividual containers
+docker stack is for swarm similar to docker compose for inividual containers  
+### To deploy 
+use the command  
+docker stack deploy -c docker-compose.yml drupal  
+docker stack deploy -c <yml file> <name of service>
 ### Case - Drupal + Postgres using swarm  stack
 [sample stack file](https://github.com/sssrox/Docker/blob/master/stacks/docker-compose.yml)
