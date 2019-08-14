@@ -27,4 +27,8 @@ docker service create --replicas 3 nginx
 
 The manager will install containers in all the workers based on availability for each replica
 
+### List services
+docker service ls
+
 ### Update a service
+docker service update --replicas 5 np4yfe76wc8x
