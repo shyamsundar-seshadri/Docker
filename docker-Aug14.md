@@ -32,3 +32,8 @@ docker service ls
 
 ### Update a service
 docker service update --replicas 5 np4yfe76wc8x
+
+## Docker stack
+docker stack is for swarm similar to docker compose for inividual containers
+### Case - Drupal + Postgres using swarm  stack
+[sample stack file](https://github.com/sssrox/Docker/blob/master/stacks/docker-compose.yml)
