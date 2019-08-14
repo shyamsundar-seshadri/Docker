@@ -24,3 +24,7 @@ docker service create nginx
 
 ### Create a service with multiple replicas
 docker service create --replicas 3 nginx   
+
+The manager will install containers in all the workers based on availability for each replica
+
+### Update a service
