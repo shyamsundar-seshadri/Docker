@@ -3,7 +3,7 @@
 # Swarm  
 
 ## Manager Creation and Operations
-### create a manager
+### Create a manager
 docker swarm init  
 
 ### To connect worker to Manager
